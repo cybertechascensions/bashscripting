@@ -64,7 +64,11 @@ fi
 
 # Display the username, password, and the host name where the user was created.
 
+echo ""
 echo "Your username is ${USER_NAME}."
+echo ""
 echo "Your password is ${PASSWORD}."
+echo ""
 echo "The hostname of this computer is ${HOSTNAME}."
+echo ""
 
