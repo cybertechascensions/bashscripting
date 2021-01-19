@@ -1,0 +1,12 @@
+The useradd command did not execute correctly.
+Changing password for user jlocke.
+passwd: all authentication tokens updated successfully.
+Expiring password for user jlocke.
+passwd: Success
+
+Your username is jlocke.
+
+Your password is 4f8d3427342a.
+
+The hostname of this computer is localhost.localdomain.
+
