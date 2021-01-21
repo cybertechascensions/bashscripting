@@ -26,7 +26,7 @@ cat ${FILE}
 # Redirect STDIN to a program, using FD 0
 read LINE 0< ${FILE}
 echo
-echo "LINe contains: ${LINE}"
+echo "LINE contains: ${LINE}"
 
 # Redirect STDOUT to a file using FD1. overwiting the file
 head -n3 /etc/passwd 1> ${FILE}
