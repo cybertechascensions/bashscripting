@@ -14,5 +14,7 @@ git add .
 # Run the git command to add and commit to the repository
 git commit -m "${COMMENT}"
 
+# Get name for parent branch
+read -p 'What is the name for the main branch?: ' BRANCH_NAME
 # Run the git command to push the changes
-git push -u origin main
+git push -u origin "${BRANCH_NAME}"
