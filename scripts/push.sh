@@ -15,4 +15,4 @@ git add .
 git commit -m "${COMMENT}"
 
 # Run the git command to push the changes
-git push origin master
+git push -u origin main
